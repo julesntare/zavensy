@@ -1,3 +1,3 @@
 # zavensy
 
-Simple React App with redux to display Event Attendees
+react app for event attendees management
