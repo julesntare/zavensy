@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  text-align: center;
+}
+.edit-icon,
+.delete-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+  float: right;
+}
+.edit-icon {
+  background-color: #728cc2;
+}
+
+.delete-icon {
+  background-color: #ce3266;
+  margin-right: 7px;
+}
+
+.attendee-container {
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+.attendee-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.attendee-container::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.attendee-container::-webkit-scrollbar-thumb {
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  border: 3px solid transparent;
+}
